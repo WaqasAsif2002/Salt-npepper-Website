@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(Futurebk.ttf);
+}
+@font-face {
+    font-family: mysecondfont;
+    src: url(Trumlitn.ttf);
+}
+body{
+    background-color: black;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+}
+.bgfood{
+    padding: 0%;
+    margin: 0%;
+    height: 90vh;
+  
+    
+}
+#foodname{
+    color: rgb(231, 231, 231);
+font-family: mysecondfont;
+font-size: 50px;
+margin-top: -30%;
+flex-wrap: wrap;
+}
+form{
+    margin: 20px 0px;
+background-color: none;
+color: rgb(255, 255, 255);
+justify-content: space-between;
+/* align-items: ; */
+text-align: justify;
+padding: 0px 20px;
+/* display: block; */
+/* align-items: start; */
+
+}
+input:hover{
+   background-color: rgb(177, 173, 173);
+   
+}
+
+#sbt{
+    margin: 20px 10px;
+}
+#sbt:hover{
+    
+    color: rgb(216, 15, 15);
+}
+.feedback{
+    background-color: black;
+    
+}
+
+
+
+
+
+

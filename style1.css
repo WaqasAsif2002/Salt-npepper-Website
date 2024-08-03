@@ -1,0 +1,571 @@
+@font-face {
+    font-family: myfont;
+    src: url(Futurebk.ttf);
+}
+
+@font-face {
+    font-family: mysecondfont;
+    src: url(Trumlitn.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    background-color: black;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* ensures it is on top of other elements */
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    padding-left: 20px;
+}
+
+.menu {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    margin: 0;
+    font-size: 14px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Order {
+    background-color: rgb(231, 25, 25);
+    border: none;
+}
+
+.icon {
+    font-size: medium;
+    padding-left: 3px;
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    height: 60vh;
+    background-image: url(bg.JPG);
+    background-size: cover;
+    /* Ensures the image covers the container */
+    background-position: center;
+    /* Centers the background image */
+}
+
+.name {
+    font-family: myfont;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    margin: 2% 0;
+}
+
+.plain {
+    font-weight: 200;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.p1,
+.p2 {
+    font-size: 30px;
+    color: white;
+    margin: 1% 0;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: 5% 10%;
+}
+
+.images span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img.one {
+    display: block;
+    margin-bottom: 10px;
+    height: 170px;
+}
+
+.btns {
+    display: flex;
+    /* Ensure the buttons align correctly */
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+}
+
+.one {
+    width: 170%;
+}
+
+.sec {
+    width: 180px;
+    height: 50px;
+}
+
+.greyone {
+    width: 100%;
+    height: 135vh;
+    /* Consider adjusting this if it's too large */
+    background-color: #0f0f0f;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+
+.salt {
+    padding: 0;
+    margin: 0;
+    color: rgb(116, 113, 113);
+    font-family: myfont;
+    font-size: 700px;
+    opacity: 0.1;
+    position: absolute;
+}
+
+
+.grey {
+    position: relative;
+    /* Changed to relative to align with text elements */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: -10px;
+}
+
+.font {
+    font-family: myfont;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.rest {
+    font-size: 60px;
+    color: white;
+    margin: 1% 0;
+    font-family: mysecondfont;
+}
+
+.para {
+    color: rgb(228, 224, 224);
+}
+
+.isl {
+    color: red;
+    margin: 0 5%;
+    font-size: medium;
+}
+
+.loc,
+.phone {
+    color: white;
+}
+
+.another {
+    margin: 0 5%;
+    font-size: small;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.anotherone {
+    padding-top: 10px;
+}
+
+.fontone {
+    font-family: myfont;
+    font-size: xx-large;
+}
+
+.red {
+    color: red;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+
+.cont {
+    margin-bottom: -15%;
+}
+
+
+.cont1 {
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.restone {
+    margin-left: 58%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.resttwo {
+    margin-right: 58%;
+    border-radius: 10px;
+    margin: 5% 5%;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.restthree {
+    margin-top: 5%;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.cont3 {
+    padding-top: 8%;
+
+}
+
+.Welcome {
+    text-align: center;
+}
+
+.img {
+    margin-top: 20px;
+    width: 35%;
+    flex-wrap: wrap;
+}
+
+.village {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 28%, rgba(0, 0, 0, 1) 43%, rgba(60, 17, 17, 1) 100%);
+    height: 300vh;
+    position: relative;
+    /* background-position: fixed;
+padding-top: 10%;
+margin: 0%; */
+
+}
+
+.D {
+    font-family: myfont;
+    color: rgb(122, 122, 122);
+    font-size: 700px;
+    /* display: flex; */
+    padding: 0;
+    margin: 0;
+    color: rgb(158, 154, 154);
+    font-family: myfont;
+    opacity: 10%;
+    position: absolute;
+}
+
+.gradient {
+
+    padding-top: 20%;
+
+}
+
+.tbl {
+    margin-top: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.tbl img {
+    border-radius: 5px;
+
+}
+
+.malls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.data1 {
+    color: white;
+    font-family: myfont;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plain1 {
+    padding-left: 5px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.new {
+    color: rgb(164, 161, 161);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+
+button .new {
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.oneline {
+    padding: 15% 0%;
+}
+
+/* 
+.vfranch{
+    margin: 4% 3%;
+    border-radius: 10px;
+} */
+/* .cityname{
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -30% 20% 0% 0%;
+    flex-wrap: wrap;
+    font-size: larger;
+     position: relative;
+} */
+.vlg {
+    color: white;
+    padding-top: 40px;
+    background-color: #242424;
+    width: 100%;
+    /* height: 50vh; */
+}
+
+.vlg span img {
+    width: 500px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.vlgbtn {
+    height: 50px;
+    width: 170px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(18, 158, 74);
+    color: white;
+    border: none;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+
+}
+
+.restvlg {
+    margin-right: 58%;
+    border-radius: 10px;
+    margin: 5% 5%;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 35%;
+    flex-wrap: wrap;
+}
+
+.food {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: 50vh;
+    /* position: relative; */
+}
+
+.social {
+    font-family: mysecondfont;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    /* position: absolute; */
+}
+
+.foodlist {
+
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* position: absolute; */
+}
+
+body {
+    /* overflow-y: hidden; */
+    overflow: scroll;
+    margin: 0%;
+    padding: 0%;
+}
+
+.foodlist img {
+    border-radius: 2px;
+    flex-wrap: nowrap;
+    /* padding-right: 15px; */
+
+}
+
+.foot{
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align:justify ;
+    gap: 30px;
+    padding: 10px 60px;
+    background-color: #181717;
+    /* position: relative; */
+    color: rgb(109, 107, 107);
+    
+
+}
+
+/* .salt2{ */
+    /* padding: 0;
+    margin: 0;
+    color: rgb(116, 113, 113);
+    font-family: myfont;
+    font-size: 500px;
+    opacity: 0.1; */
+    /* margin-top: -15%; */
+    /* padding-bottom: 0%; */
+
+/* } */
+
+
+ .firstdiv{
+text-align:justify; 
+ width: 80%; 
+ }
+ .secdiv{ 
+    width: 80%;
+    padding-top: 3%;
+} 
+
+ .thirddiv{
+    width: 80%;
+    padding-top: 2%;
+ }
+ .fourdiv{
+width: 60%;
+padding-top: 2%;
+ }
+.radius{
+    border-radius: 5px;
+}
+.white:hover{
+   color: red;
+}
+#home{
+    color:rgb(109, 107, 107);;
+    text-decoration: none;
+    display: flex;
+}#home1{
+    color: white;
+    text-decoration: none;
+
+}
+#feedback{
+    color:rgb(255, 255, 255);;
+    text-decoration: none;
+}
+.feedback1{
+    color:rgb(109, 107, 107);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
